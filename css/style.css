@@ -1380,7 +1380,7 @@ form label {
 }
 
 #fh5co-couple-story {
-  background: url(../images/image-bg.png) center no-repeat #fff;
+  background: #F9F7F1 url(../images/image-bg.png) center no-repeat;
   background-size: cover;
   padding: 200px 0;
 }
