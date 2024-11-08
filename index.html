@@ -1,475 +1,1294 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>settle</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
-      </div>
-      <!-- end loader -->
-      <!-- top -->
-      <div class="full_bg">
-         <!-- header inner -->
-         <div class="top_section">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class=" col-md-2 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end header inner -->
-         <!-- end header -->
-         <div class="slider_main">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-md-8">
-                     <!-- carousel code -->
-                     <div id="carouselExampleIndicators" class="carousel slide">
-                        <ol class="carousel-indicators">
-                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                           <!-- first slide -->
-                           <div class="carousel-item active">
-                              <div class="carousel-caption d-md-block cuplle">
-                                 <h3 data-animation="animated bounceInLeft">
-                                    Love
-                                 </h3>
-                                 <h3 data-animation="animated bounceInLeft">
-                                    Wedding Couple
-                                 </h3>
-                                 <h3 data-animation="animated bounceInLeft">
-                                    Groom Woman
-                                 </h3>
-                                 <button class="btn btn-primary  read_more whitebg" data-animation="animated bounceInLeft">Contact Us</button>
-                              </div>
-                           </div>
-                           <!-- second slide -->
-                           <div class="carousel-item">
-                              <div class="carousel-caption d-md-block cuplle">
-                                 <h3 data-animation="animated bounceInLeft">
-                                    Love
-                                 </h3>
-                                 <h3 data-animation="animated bounceInLeft">
-                                    Wedding Couple
-                                 </h3>
-                                 <h3 data-animation="animated bounceInLeft">
-                                    Groom Woman
-                                 </h3>
-                                 <button class="btn btn-primary  read_more whitebg" data-animation="animated bounceInLeft">Contact Us</button>
-                              </div>
-                           </div>
-                           <!-- third slide -->
-                           <div class="carousel-item">
-                              <div class="carousel-caption d-md-block cuplle">
-                                 <h3 data-animation="animated bounceInLeft">
-                                    Love
-                                 </h3>
-                                 <h3 data-animation="animated bounceInLeft">
-                                    Wedding Couple
-                                 </h3>
-                                 <h3 data-animation="animated bounceInLeft">
-                                    Groom Woman
-                                 </h3>
-                                 <button class="btn btn-primary  read_more whitebg" data-animation="animated bounceInLeft">Contact Us</button>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- controls -->
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <i class="fa fa-angle-left" aria-hidden="true"></i>
-                        <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        <span class="sr-only">Next</span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end banner -->
-      <div id="myHeader" class="header diki">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-10 col-sm-12">
-                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <div class="collapse navbar-collapse" id="navbarsExample04">
-                        <ul class="navbar-nav mr-auto">
-                           <li class="nav-item active">
-                              <a class="nav-link" href="index.html">Home</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="about.html">About</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="couple.html">Couple</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="gallery.html">Gallery</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="Javascript:void(0)">RSVP</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="Javascript:void(0)">Best People</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="Javascript:void(0)">Gifts</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="contact.html">Contact Us</a>
-                           </li>
-                        </ul>
-                     </div>
-                  </nav>
-               </div>
-               <div class="col-md-2">
-                  <div class="sealo">
-                     <ul>
-                        <li><a href="Javascript:void(0)"><i class="fa fa-search"></i></a></li>
-                        <li><a href="Javascript:void(0)">Login</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- about -->
-      <div class="about">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>About Us</h2>
-                  </div>
-               </div>
-               <div class="col-md-10 offset-md-1">
-                  <div class="about_img text_align_center">
-                     <figure><img src="images/about.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-8 offset-md-2">
-                  <div class="about_img text_align_center">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br>
-                        esse Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                     </p>
-                     <a class="read_more" href="about.html">About More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end about -->
-      <!-- couple -->
-      <div class="couple">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-7">
-                  <div class="titlepage text_align_left">
-                     <span>Our introduction</span>
-                     <h2>Meet Happy Couple</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                     </p>
-                     <a class="read_more whitebg" href="Javascript:void(0)">See More</a>
-                  </div>
-               </div>
-               <div class="col-md-5">
-                  <div class="doi">
-                     <figure><img src="images/mul.png" alt="#"/></figure>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- couple -->
-      <!-- gallery -->
-      <div class="gallery">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Our Gallery</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="tz-gallery">
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="row">
-                        <div class="col-md-12 ma_bottom30">
-                           <div class="lightbox">
-                              <img src="images/g1.jpg" alt="Bridge">
-                              <div class="view_main">
-                                 <h3>Couple</h3>
-                                 <a class="view_btn" href="images/g1.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-12 ma_bottom30">
-                           <div class="lightbox">
-                              <img src="images/g4.jpg" alt="Bridge">
-                              <div class="view_main">
-                                 <h3>Couple</h3>
-                                 <a class="view_btn" href="images/g4.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="row">
-                        <div class="col-md-12 ma_bottom30">
-                           <div class="lightbox">
-                              <img src="images/g2.jpg" alt="Bridge">
-                              <div class="view_main">
-                                 <h3>Couple</h3>
-                                 <a class="view_btn" href="images/g2.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-12 ma_bottom30">
-                           <div class="lightbox">
-                              <img src="images/g5.jpg" alt="Bridge">
-                              <div class="view_main">
-                                 <h3>Couple</h3>
-                                 <a class="view_btn" href="images/g5.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="row">
-                        <div class="col-md-12 ma_bottom30">
-                           <div class="lightbox">
-                              <img src="images/g3.jpg" alt="Bridge">
-                              <div class="view_main">
-                                 <h3>Couple</h3>
-                                 <a class="view_btn" href="images/g3.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-12 ma_bottom30">
-                           <div class="lightbox">
-                              <img src="images/g6.jpg" alt="Bridge">
-                              <div class="view_main">
-                                 <h3>Couple</h3>
-                                 <a class="view_btn" href="images/g6.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-12">
-                     <p class="text_align_center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end gallery -->
-      <!-- contact -->
-      <div class="contact">
-         <div class="container-fluid">
-            <div class="row ">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>Contact Us</h2>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="mapimg">
-                     <figure><img src="images/map.png" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-6 ">
-                           <label>Name</label>
-                           <input class="contactus" placeholder="" type="type" name=" Name"> 
-                        </div>
-                        <div class="col-md-6">
-                           <label>Phone Number</label>
-                           <input class="contactus" placeholder="" type="type" name="Phone Number">                          
-                        </div>
-                        <div class="col-md-12">
-                           <label>Email</label>
-                           <input class="contactus" placeholder="" type="type" name="Email"> 
-                        </div>
-                        <div class="col-md-12">
-                           <label>Message</label>
-                           <textarea class="textarea" placeholder="" type="type" Message="Name"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- contact -->
-      <!--  footer -->
-      <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row border_bo1 ">
-                  <div class="col-md-4">
-                     <a class="logof" href="index.html"><img src="images/logo.png" alt="#"/></a> 
-                     <form class="form_subscri">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <h3>Subscribe Now</h3>
-                           </div>
-                           <div class="col-md-12">
-                              <input class="subsrib" placeholder="Enter your email" type="text" name="Enter your email">
-                           </div>
-                           <div class="col-md-12">
-                              <button class="subsci_btn">subscribe</button>
-                           </div>
-                        </div>
-                     </form>
-                  </div>
-                  <div class="col-lg-2 col-md-4 col-sm-6">
-                     <div class="infoma">
-                        <h3>Information</h3>
-                        <ul>
-                           <li>There are many </li>
-                           <li>variations of pas</li>
-                           <li>sages of Lorem  </li>
-                           <li>psum available,  </li>
-                           <li>but the majority  </li>
-                           <li>have suffered  </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-2 col-md-4 col-sm-6">
-                     <div class="infoma">
-                        <h3>Helpful Links</h3>
-                        <ul>
-                           <li>There are many </li>
-                           <li>variations of pas</li>
-                           <li>sages of Lorem  </li>
-                           <li>psum available,  </li>
-                           <li>but the majority  </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-2 col-md-4 col-sm-6">
-                     <div class="infoma">
-                        <h3>Our Weddings</h3>
-                        <ul>
-                           <li>There are many </li>
-                           <li>variations of pas</li>
-                           <li>sages of Lorem  </li>
-                           <li>psum available,  </li>
-                           <li>but the majority  </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-2 col-md-4 col-sm-6">
-                     <div class="infoma">
-                        <h3>Contact Us</h3>
-                        <ul class="conta">
-                           <li><i class="fa fa-map-marker" aria-hidden="true"></i>Locations 
-                           </li>
-                           <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i>+71 12345678901</li>
-                           <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="Javascript:void(0)"> demo@gmail.com</a></li>
-                        </ul>
-                        <ul class="social_icon">
-                           <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                           <li><a href="Javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                           <li><a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                           <li><a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <p>© 2020 All Rights Reserved. <a href="https://html.design/"> Free html Templates</a></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script type="text/javascript">
-         baguetteBox.run('.tz-gallery');
-      </script>
-      <script type="text/javascript">
-         window.onscroll = function() {myFunction()};
-         
-         var header = document.getElementById("myHeader");
-         var sticky = header.offsetTop;
-         
-         function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-         }
-      </script>
-   </body>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible"
+		  content="IE=edge">
+	<title>Wedding &mdash; Arizal &amp; Sabilla</title>
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1">
+	<meta name="description"
+		  content="Wedding Arizal & Sabila" />
+	<meta name="keywords"
+		  content="zonemiracle, wedding, pernikahan" />
+	<meta name="author"
+		  content="zonemiracle" />
+
+	<meta property="og:title"
+		  content="" />
+	<meta property="og:image"
+		  content="" />
+	<meta property="og:url"
+		  content="" />
+	<meta property="og:site_name"
+		  content="" />
+	<meta property="og:description"
+		  content="" />
+	<meta name="twitter:title"
+		  content="" />
+	<meta name="twitter:image"
+		  content="" />
+	<meta name="twitter:url"
+		  content="" />
+	<meta name="twitter:card"
+		  content="" />
+
+	<link href='https://fonts.googleapis.com/css?family=Poppins'
+		  rel='stylesheet'
+		  type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inter"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Risque"
+		  rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet"
+		  href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet"
+		  href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet"
+		  href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet"
+		  href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet"
+		  href="css/owl.carousel.min.css">
+	<link rel="stylesheet"
+		  href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet"
+		  href="css/style.css">
+
+	<script src="https://kit.fontawesome.com/2bd1212873.js"
+			crossorigin="anonymous"></script>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/particles.js-master/particles.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<div id="splash-screen"
+		 class="splash-screen">
+		<div class="splash-content">
+		
+			<svg viewBox="0 0 380 100" style="margin-left: -47%;">
+				<path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" fill="none" stroke="none"/>
+				<text width="500">
+				<textPath xlink:href="#curve" startOffset="29%">
+					The Wedding Of
+				</textPath>
+				</text>
+			</svg>
+			<h1 class="fade-in-text">Arizal &amp; Sabilla</h1>
+			<h3 class="fade-in-text">DEAR</h3>
+			<h2 class="fade-in-text"
+				id="guest_name"
+				style="font-size: 23px;">Nama Tamu</h2>
+			<button id="enter-button"
+					class="btn btn-primary fade-in-text">Buka Undangan</button>
+			<!-- <div class="moving-splash-left">
+				<div class="rose-left">
+					<img src="images/bunga_bride1.png"
+						 alt="Base splash group"
+						 class="moving-image-r">
+				</div>
+				<div class="wheat-left">
+					<img src="images/bunga_groom.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+				<div class="wheat-left-down">
+					<img src="images/bunga_groom.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+				<div class="mini-wheat">
+					<img src="images/bunga_bride.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+				<div class="kuncup1">
+					<img src="images/kuncup.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup2">
+					<img src="images/kuncup.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup3">
+					<img src="images/kuncup.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup4">
+					<img src="images/kuncup.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+			</div>
+			<div class="moving-splash-right">
+				<div class="rose-right">
+					<img src="images/bunga_groom1.png"
+						 alt="Base splash group"
+						 class="moving-image-r">
+				</div>
+				<div class="wheat-right">
+					<img src="images/bunga_bride.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+				<div class="kuncup1">
+					<img src="images/kuncupr.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup2">
+					<img src="images/kuncupr.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="kuncup3">
+					<img src="images/kuncupr.png"
+						 alt="Up splash group"
+						 class="moving-image-d">
+				</div>
+				<div class="daunan">
+					<img src="images/daunan.png"
+						 alt="Up splash group"
+						 class="moving-image-c">
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<div class="fh5co-loader"></div>
+
+	<div id="main-content"
+		 class="main-content"
+		 style="display: none;">
+		<div id="page">
+			<!-- <nav class="fh5co-nav"
+				 role="navigation">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-2">
+						</div>
+						<div class="col-xs-10 text-right menu-1">
+							<ul>
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">Story</a></li>
+								<li class="has-dropdown">
+									<a href="services.html">Services</a>
+								</li>
+								<li class="has-dropdown">
+									<a href="gallery.html">Gallery</a>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav> -->
+
+			<header id="fh5co-header"
+					class="fh5co-cover"
+					role="banner"
+					style="background-image:url(images/img_bg_2.jpg);">
+				<div class="overlay">
+					<!-- <div class="moving-splash-left">
+						<div class="rose-left">
+							<img src="images/bunga_bride1.png"
+								 alt="Base splash group"
+								 class="moving-image-r">
+						</div>
+						<div class="wheat-left">
+							<img src="images/bunga_groom.png"
+								 alt="Up splash group"
+								 class="moving-image-c">
+						</div>
+						<div class="wheat-left-down">
+							<img src="images/bunga_groom.png"
+								 alt="Up splash group"
+								 class="moving-image-c">
+						</div>
+						<div class="mini-wheat">
+							<img src="images/bunga_bride.png"
+								 alt="Up splash group"
+								 class="moving-image-c">
+						</div>
+						<div class="kuncup1">
+							<img src="images/kuncup.png"
+								 alt="Up splash group"
+								 class="moving-image-d">
+						</div>
+						<div class="kuncup2">
+							<img src="images/kuncup.png"
+								 alt="Up splash group"
+								 class="moving-image-d">
+						</div>
+						<div class="kuncup3">
+							<img src="images/kuncup.png"
+								 alt="Up splash group"
+								 class="moving-image-d">
+						</div>
+						<div class="kuncup4">
+							<img src="images/kuncup.png"
+								 alt="Up splash group"
+								 class="moving-image-d">
+						</div>
+					</div>
+					<div class="moving-splash-right">
+						<div class="rose-right">
+							<img src="images/bunga_groom1.png"
+								 alt="Base splash group"
+								 class="moving-image-r">
+						</div>
+						<div class="wheat-right">
+							<img src="images/bunga_bride.png"
+								 alt="Up splash group"
+								 class="moving-image-c">
+						</div>
+						<div class="kuncup1">
+							<img src="images/kuncupr.png"
+								 alt="Up splash group"
+								 class="moving-image-d">
+						</div>
+						<div class="kuncup2">
+							<img src="images/kuncupr.png"
+								 alt="Up splash group"
+								 class="moving-image-d">
+						</div>
+						<div class="kuncup3">
+							<img src="images/kuncupr.png"
+								 alt="Up splash group"
+								 class="moving-image-d">
+						</div>
+						<div class="daunan">
+							<img src="images/daunan.png"
+								 alt="Up splash group"
+								 class="moving-image-c">
+						</div>
+					</div> -->
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<div class="display-t">
+								<div class="display-tc animate-box"
+									 data-animate-effect="fadeIn">
+									<h2 style="padding-top: 5%;">The Wedding Of</h2>
+									<h1>Arizal &amp; Sabilla</h1>
+									<h2>Sabtu, 24 Januari 2025</h2>
+									<h2 style="font-weight: 600; margin-top: 0;">Save The Date</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div id="first-quote" class="fh5co-bg">
+				<div class="overlay">
+					<div class="fq-left">
+						<img src="images/bungakiri.png"
+							 alt="fq left"
+							 class="moving-image-c">
+					</div>
+					<div class="fq-right">
+						<img src="images/bungakanan.png"
+							 alt="fq right"
+							 class="moving-image-c">
+					</div>
+				</div>
+				<div class="container">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box">
+						<!-- <h3 class="arab">بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيمِ</h3> -->
+						 <img src="images/doa.png" alt="doa">
+						<h3>Assalamu'alaikum Wr. Wb.</h3>
+						<p>Ya Allah, Dengan Segala Kesucian Hati, Kami
+							Bersujud Memohon Ridho-mu. Untuk 
+							Menuju Sunnah Rasul-mu, Membentuk
+							Keluarga Yang Sakinah, Mawadah, Warahmah</p>
+						</div>
+					</div>
+			</div>
+
+			<div id="fh5co-event"
+				 class="fh5co-bg"
+				 style="background-color: white;">
+				 <div id="particles-js"></div>
+				 <div class="overlay">
+					<div class="ev-middle">
+						<img src="images/bungatengah.png"
+							 alt="ev middle"
+							 class="moving-image-c">
+					</div>
+				 </div>
+				<div class="container">
+					<div class="row">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="col-md-10 col-md-offset-1">
+									
+									<div class="col-md-12 col-sm-12 text-center">
+										<h4>Yang InsyaAllah akan dilaksanakan pada :</h4>
+										<div class="simply-countdown simply-countdown-one"></div>
+										<div class="hr-with-text">
+											<hr>
+											<span>Save the date</span>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="event-wrap animate-box">
+											<h3>Akad Nikah</h3>
+											<div class="event-col">
+												<span>Sabtu, 17 Mei 2025</span>
+											</div>
+											<div class="event-col">
+												<span>Pukul 09.00 WIB</span>
+											</div>
+											<div class="event-inner">
+												<span>Jl. Asia Afrika, Kb. Pisang, Kec. Regol, Kota Bandung, Jawa
+													Barat</span>
+											</div>
+											<div class="event-inner">
+												<a href="https://www.google.co.id/maps/dir//Alun-alun+Kota+Bandung,+Jl.+Asia+Afrika,+Kb.+Pisang,+Kec.+Regol,+Kota+Bandung,+Jawa+Barat/@-6.9218242,107.6044874,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e68e89dbe0ec231:0x177412aac90cd065!2m2!1d107.6070623!2d-6.9218295?hl=id&entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+												   target="_blank"
+												   class="mt-3 mb-3 py-2 px-4">
+													<i class="fa-solid fa-location-dot"></i>Lihat Lokasi
+												</a>
+											</div>
+											<!-- <div class="moving-rose-story-right">
+												<img src="images/bunga_groom1.png"
+													 alt="Moving Rose 3"
+													 class="moving-image-b">
+											</div>
+											<div class="moving-leaf-story-left">
+												<img src="images/daun_kiri.png"
+													 alt="Moving leaf temporary">
+											</div> -->
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="event-wrap animate-box">
+											<h3>Resepsi</h3>
+											<div class="event-col">
+												<span>Sabtu, 17 Mei 2025</span>
+											</div>
+											<div class="event-col">
+												<span>Pukul 10:00 WIB</span>
+											</div>
+											<div class="event-inner">
+												<span>Jl. Asia Afrika, Kb. Pisang, Kec. Regol, Kota Bandung, Jawa
+													Barat</span>
+											</div>
+											<div class="event-inner">
+												<a href="https://www.google.co.id/maps/dir//Alun-alun+Kota+Bandung,+Jl.+Asia+Afrika,+Kb.+Pisang,+Kec.+Regol,+Kota+Bandung,+Jawa+Barat/@-6.9218242,107.6044874,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e68e89dbe0ec231:0x177412aac90cd065!2m2!1d107.6070623!2d-6.9218295?hl=id&entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+												   target="_blank"
+												   class="mt-3 mb-3 py-2 px-4">
+													<i class="fa-solid fa-location-dot"></i>Lihat Lokasi
+												</a>
+											</div>
+											<!-- <div class="moving-rose-story-left">
+												<img src="images/bunga_bride1.png"
+													 alt="Moving Rose 3"
+													 class="moving-image-b">
+											</div>
+											<div class="moving-leaf-story-right">
+												<img src="images/daun_kanan.png"
+													 alt="Moving leaf temporary">
+											</div> -->
+										</div>
+									</div>
+									<!-- <div class="col-md-12 col-sm-12 text-center">
+										<div class="animate-box">
+											<div class="event-inner">
+											</div>
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.940800052965!2d104.72518737410302!3d-5.425965254161215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4723a1f50704ef%3A0x24af59e8150094d9!2sGedung%20Serba%20Guna%20(GSG)%20Gisting%20Bawah!5e0!3m2!1sid!2sid!4v1729582501757!5m2!1sid!2sid"
+													width="100%"
+													height="300"
+													style="border:0; border-radius: 18px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3), 0px -8px 15px rgba(0, 0, 0, 0.3);"
+													allowfullscreen=""
+													loading="lazy"
+													referrerpolicy="no-referrer-when-downgrade"></iframe>
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.738566859013!2d107.60448737412412!3d-6.92182416774753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e89dbe0ec231%3A0x177412aac90cd065!2sAlun-alun%20Kota%20Bandung!5e0!3m2!1sid!2sid!4v1730281157624!5m2!1sid!2sid"
+													width="100%"
+													height="300"
+													style="border:0; border-radius: 18px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3), 0px -8px 15px rgba(0, 0, 0, 0.3);"
+													allowfullscreen=""
+													loading="lazy"
+													referrerpolicy="no-referrer-when-downgrade"></iframe>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="fh5co-couple-story">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<h2>Perjalanan Cinta Kami</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-md-offset-0">
+							<ul class="timeline">
+								<div class="moving-rose-story-right">
+									<img src="images/bungakanan.png"
+										 alt="Moving Rose 3"
+										 class="moving-image-b">
+								</div>
+								<div class="moving-rose-story-left">
+									<img src="images/bungakiri.png"
+										 alt="Moving Rose 4"
+										 class="moving-image-b">
+								</div>
+								<li class="animate-box">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">Awal Pertemuan</h3>
+										</div>
+										<div class="timeline-body">
+											<p>Kami pertama kali bertemu di tanggal 5 Agustus 2022. Saat itu kami
+												bekerja di tempat yang sama</p>
+										</div>
+									</div>
+								</li>
+								<li class="animate-box">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">Menjalin Hubungan</h3>
+										</div>
+										<div class="timeline-body">
+											<p>Setelah merasa mengenal satu sama lain, kami memutuskan untuk menjalin
+												hubungan di tanggal 11 Maret 2023.</p>
+										</div>
+									</div>
+								</li>
+								<li class="animate-box">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">Lamaran</h3>
+										</div>
+										<div class="timeline-body">
+											<p>Kami mantap membawa hubungan kami ke jenjang yang lebih serius dengan
+												mempertemukan kedua orangtua dan keluarga besar dalam acara silahturahmi
+												dan lamaran yang dilangsungkan pada 21 Oktober 2024.</p>
+										</div>
+									</div>
+								</li>
+								<li class="animate-box">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">Resepsi Pernikahan</h3>
+										</div>
+										<div class="timeline-body">
+											<p>Atas izin Allah SWT, restu dan ridho dari kedua orangtua. Serta dukungan
+												dari keluarga besar dan orang-orang terkasih. InsyaAllah kami akan
+												melangsungkan pernikahan kami pada 17 Mei 2025. Serta memulai kisah
+												baru kami dalam suatu ikatan suci pernikahan. Yang semoga senantiasa
+												diberkahi oleh Allah SWT.</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="fh5co-gallery">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<h2>Galeri Foto</h2>
+							<p>Tidak ada yang spesial dalam cerita kami. Tapi kami sangat spesial untuk satu sama lain.
+								Dan Kami bersyukur, dipertemukan Allah diwaktu terbaik, Kini kami menanti hari istimewa
+								kami.</p>
+						</div>
+					</div>
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-12">
+							<ul id="fh5co-gallery-list">
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-1.jpg); ">
+									<a href="images/gallery-1.jpg">
+									</a>
+								</li>
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/img_bg_2.jpg); ">
+									<a href="images/img_bg_2.jpg">
+									</a>
+								</li>
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-3.jpg); ">
+									<a href="images/gallery-3.jpg">
+									</a>
+								</li>
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-4.jpg); ">
+									<a href="images/gallery-4.jpg">
+									</a>
+								</li>
+
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-5.jpg); ">
+									<a href="images/gallery-5.jpg">
+									</a>
+								</li>
+								<li class="one-third animate-box"
+									data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-6.jpg); ">
+									<a href="images/gallery-6.jpg">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="fh5co-couple">
+				<div class="container">
+					<div class="row">
+					</div>
+					<div class="couple-wrap">
+						<div class="moving-rose-groom animate-box">
+							<img src="images/bungakiri.png"
+								 alt="Moving Rose 1"
+								 class="moving-image-b">
+						</div>
+						<div class="moving-rose-bride animate-box">
+							<img src="images/bungakanan.png"
+								 alt="Moving Rose 2"
+								 class="moving-image-b">
+						</div>
+						<div class="couple-half animate-box"
+							 data-animate-effect="fadeInLeft">
+							<div class="groom">
+								<!-- <div class="moving-image-groom">
+									<img src="images/bunga_groom.png"
+										 alt="Moving Image 1"
+										 class="moving-image-r">
+								</div> -->
+								<img src="images/groom.png"
+									 alt="groom"
+									 class="img-responsive grooms">
+							</div>
+							<div class="desc-groom">
+								<p class="instagram"><i class="fa-brands fa-instagram"></i></p>
+								<h3>Arizal Nurhikam</h3>
+								<p>Putra pertama Bapak Taufik &amp; Ibu Surtini</p>
+							</div>
+						</div>
+						<p class="heart text-center"><i class="icon-heart2"></i></p>
+						<h3 class="amp">&amp;</h3>
+						<div class="couple-half animate-box"
+							 data-animate-effect="fadeInRight">
+							<div class="bride">
+								<!-- <div class="moving-image-bride">
+									<img src="images/bunga_bride.png"
+										 alt="Moving Image 2"
+										 class="moving-image-r">
+								</div> -->
+								<img src="images/bride.png"
+									 alt="groom"
+									 class="img-responsive brides">
+							</div>
+							<div class="desc-bride">
+								<p class="instagram"><i class="fa-brands fa-instagram"></i></p>
+								<h3>Sabilla Putri</h3>
+								<p>Putri kedua Bapak Budi Gunawan &amp; Ibu Siti Azizah</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="fh5co-gift"
+				 class="fh5co-bg"
+				 style="background-color: #F9F7F1;">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<h2>Amplop Digital</h2>
+							<p>Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.<br>
+								Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara
+								cashless.</p>
+								<button id="toggleGiftButton" class="mt-3 mb-3 py-2 px-4 button-gift">
+									<i class="fa-solid fa-gift"></i>Kirim Hadiah
+								</button>
+						</div>
+					</div>
+					<div id="gift-info" style="display: none;">
+					<div class="row">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="event-wrap animate-box">
+											<div class="event-col">
+												<h3>Atas Nama</h3>
+												<span>Arizal Nurhikam</span>
+												<span>12345678912</span>
+											</div>
+											<div class="event-col">
+												<img src="images/bca.png">
+												<!-- <img src="images/qr.png"> -->
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="event-wrap animate-box">
+											<div class="event-col">
+												<h3>Atas Nama</h3>
+												<span>Arizal Nurhikam</span>
+												<span>12345678912</span>
+											</div>
+											<div class="event-col">
+												<img src="images/dana.png">
+												<!-- <img src="images/qr.png"> -->
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="event-wrap animate-box">
+											<div class="event-col">
+												<i class="fa-solid fa-gift"></i>
+												<h2 style="text-align: center;">Kirim Hadiah</h2>
+												<p>Nama Penerima : Arizal Nurhikam</p>
+												<p>No. HP : +62 812-3456-7890</p>
+												<p>Jl Dago Pakar</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+			<svg width="100%" height="100px" viewBox="0 0 100 30" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+				<path d="M0,0 Q50,60 100,0 L100,30 L0,30 Z" fill="#CC8F53" />
+			  </svg>
+			<div id="fh5co-quote"
+				 class="fh5co-bg">
+				<div class="overlay">
+					<div class="quote-left">
+						<img src="images/bungakiri.png"
+							 alt="quotel"
+							 class="moving-image-c">
+					</div>
+				</div>
+				<div class="container" style="padding-bottom: 30px;">
+					<!-- <div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" style="margin-top: 0;">
+							<h2>Save The Date</h2>
+						</div>
+					</div> -->
+					<div class="row">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="col-md-12 col-sm-12 text-center">
+										<div class="text-center p-4 animate-box">
+											<h4 class="font-weight-normal mb-1 pb-3">
+												"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
+											</h4>
+											<h4>- QS. Ar Rum 21 -</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg width="100%" height="100px" viewBox="0 0 100 30" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="margin-top: -1px;">
+				<path d="M0,30 Q50,-30 100,30 L100,0 L0,0 Z" fill="#CC8F53" />
+			  </svg>
+
+			<div id="fh5co-started"
+				 class="fh5co-bg">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>Ucapkan Sesuatu</h2>
+						</div>
+					</div>
+					<div class="row animate-box">
+						<div class="moving-image-com">
+							<img src="images/bungakiric.png"
+								 alt="Moving Image 1"
+								 class="moving-image-b">
+						</div>
+						<div class="moving-image-com2">
+							<img src="images/bungakananc.png"
+								 alt="Moving Image 1"
+								 class="moving-image-b">
+						</div>
+						<div class="moving-image-com3">
+							<img src="images/bungakananc.png"
+								 alt="Moving Image 1"
+								 class="moving-image-b">
+						</div>
+						<div class="comment-section col-md-10 col-md-offset-1">
+							<form id="comment-form"
+								  class="form-inline">
+								<div class="col-md-3 col-sm-6">
+									<div class="form-group">
+										<label for="name"
+											   class="sr-only">Nama</label>
+										<input type="text"
+											   class="form-control"
+											   id="name"
+											   placeholder="Name"
+											   required>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-12">
+									<div class="form-group">
+										<label for="message"
+											   class="sr-only">Pesan</label>
+										<input type="text"
+											   class="form-control"
+											   id="message"
+											   placeholder="Message"
+											   row="3"
+											   required>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="form-group">
+										<label for="attendance"
+											   class="sr-only">Kehadiran</label>
+										<select id="attendance"
+												class="form-control"
+												required>
+											<option value="">Konfirmasi Kehadiran</option>
+											<option value="attending">Hadir</option>
+											<option value="not-attending">Tidak Hadir</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-12">
+									<button type="button"
+											class="btn btn-default btn-block"
+											onclick="submitComment()">Kirim</button>
+								</div>
+							</form>
+							<div class="col-md-12 col-sm-12">
+								<div class="comment-list"
+									 id="comment-list"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="fh5co-end"
+				 class="fh5co-bg">
+				<div class="overlay">
+					<!-- <div class="end-art">
+						<div class="end-left">
+							<div class="moving-rose-end-left">
+								<img src="images/bunga_groom1.png"
+									 alt="Moving Rose 3"
+									 class="moving-image-b">
+							</div>
+							<div class="wheat-left">
+								<img src="images/bunga_bride.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="daunan">
+								<img src="images/daunan.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="kuncup1">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup2">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup3">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+						</div>
+						<div class="end-right">
+							<div class="moving-rose-end-right">
+								<img src="images/bunga_bride1.png"
+									 alt="Moving Rose 3"
+									 class="moving-image-b">
+							</div>
+							<div class="wheat1">
+								<img src="images/bunga_groom.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="wheat2">
+								<img src="images/bunga_bride.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="wheat3">
+								<img src="images/bunga_groom.png"
+									 alt="Up splash group"
+									 class="moving-image-c">
+							</div>
+							<div class="kuncup1">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup2">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup3">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+						</div>
+						<div class="end-left bottom-right">
+							<div class="moving-rose-end-left">
+								<img src="images/bunga_groom1.png"
+									alt="Moving Rose 3"
+									class="moving-image-b">
+							</div>
+							<div class="wheat-left">
+								<img src="images/bunga_bride.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="daunan">
+								<img src="images/daunan.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="kuncup1">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup2">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup3">
+								<img src="images/kuncupr.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+						</div>
+						<div class="end-right bottom-left">
+							<div class="moving-rose-end-right">
+								<img src="images/bunga_bride1.png"
+								alt="Moving Rose 3"
+								class="moving-image-b">
+							</div>
+							<div class="wheat1">
+								<img src="images/bunga_groom.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="wheat2">
+								<img src="images/bunga_bride.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="wheat3">
+								<img src="images/bunga_groom.png"
+								alt="Up splash group"
+								class="moving-image-c">
+							</div>
+							<div class="kuncup1">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup2">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+							<div class="kuncup3">
+								<img src="images/kuncup.png"
+								alt="Up splash group"
+								class="moving-image-d">
+							</div>
+						</div>
+					</div>-->
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<div class="end-image">
+								<img src="images/end.jpg"
+									 alt="">
+							</div>
+							<p>Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i
+								berkenan hadir dan memberikan doa restu. Atas kehadiran dan doa restunya, kami
+								mengucapkan terima kasih.
+								Wassalamu'alaikum Wr. Wb.</p>
+							<h2>Arizal &amp; Sabilla</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer id="fh5co-footer"
+					role="contentinfo">
+				<div class="container">
+
+					<div class="row copyright">
+						<div class="col-md-12 text-center animate-box">
+							<h2>Made with <strong>love</strong> by <strong>Zone Miracle</strong></h2>
+							<p>Cari tahu lebih lanjut tentang kami melalui :</p>
+							<ul class="fh5co-social-icons">
+								<li><a href="https://www.instagram.com/zonemiracle_?igsh=MXFqcmc1MjlkenNyZw=="><i class="fa fa-instagram"></i></a></li>
+								<li><a href="https://wa.me/6281563939538"><i class="fa fa-whatsapp"></i></a></li>
+							</ul>
+							<p>
+								<small class="block">Alamat :<br>
+									Jl. Terusan Sekolah No.1-2, Cicaheum, Kec. Kiaracondong, Kota Bandung, Jawa Barat
+									40282 </small>
+							</p>
+							<p>
+								<!-- <ul class="fh5co-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-linkedin"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							</ul> -->
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</footer>
+		</div>
+		<div class="music-toggle">
+			<button id="toggle-music">
+				<i class="icon-play"
+				   id="play-icon"
+				   style="display: none;"></i>
+				<i class="icon-pause"
+				   id="pause-icon"
+				   style="display: none;"></i>
+			</button>
+		</div>
+		<div class="menu-toggle">
+			<div class="event-toggle">
+				<a href="#fh5co-header"><i class="fa-solid fa-house"></i></a>
+				<a href="#fh5co-couple"><i class="fa-solid fa-heart"></i></a>
+				<a href="#fh5co-event"><i class="fa-solid fa-calendar-days"></i></a>
+				<a href="#fh5co-gallery"><i class="fa-solid fa-images"></i></a>
+				<a href="#fh5co-started"><i class="fa-solid fa-comments"></i></a>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- <div class="gototop js-top">
+		<a href="#"
+		   class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div> -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+
+
+	<script>
+
+		$(document).ready(function () {
+			const urlParams = new URLSearchParams(window.location.search);
+			const guestName = urlParams.get('halo') || 'Ditempat';
+			document.getElementById('guest_name').textContent = guestName;
+		});
+
+		const enterButton = document.getElementById('enter-button');
+		const mainContent = document.getElementById('main-content');
+		const backgroundAudio = new Audio('song.mp3');
+		const toggleMusicButton = document.getElementById('toggle-music');
+		const playIcon = document.getElementById('play-icon');
+		const pauseIcon = document.getElementById('pause-icon');
+
+		enterButton.addEventListener('click', function () {
+
+			document.getElementById('splash-screen').style.display = 'none';
+			document.getElementById('main-content').style.display = 'block';
+
+			backgroundAudio.play();
+			document.getElementById('play-icon').style.display = 'none';
+			document.getElementById('pause-icon').style.display = 'inline';
+		});
+
+		// Event listener for the toggle music button
+		toggleMusicButton.addEventListener('click', function () {
+			if (backgroundAudio.paused) {
+				backgroundAudio.play();
+				document.getElementById('play-icon').style.display = 'none';
+				document.getElementById('pause-icon').style.display = 'inline';
+			} else {
+				backgroundAudio.pause();
+				document.getElementById('play-icon').style.display = 'inline';
+				document.getElementById('pause-icon').style.display = 'none';
+			}
+		});
+		var targetDate = new Date('2025-05-17T09:00:00');
+
+		var d = new Date(targetDate.getTime());
+
+		// default example
+		simplyCountdown('.simply-countdown-one', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate()
+		});
+
+		//jQuery example
+		$('#simply-countdown-losange').simplyCountdown({
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate(),
+			enableUtc: false
+		});
+	</script>
+	<script>
+		particlesJS("particles-js", {
+		  "particles": {
+			"number": {
+			  "value": 80, // Number of particles
+			  "density": {
+				"enable": true,
+				"value_area": 800 // Density of particles in the area
+			  }
+			},
+			"color": {
+			  "value": "#ffffff" // Color of particles
+			},
+			"shape": {
+			  "type": "circle",
+			  "stroke": {
+				"width": 0,
+				"color": "#000000"
+			  },
+			  "polygon": {
+				"nb_sides": 5
+			  }
+			},
+			"opacity": {
+			  "value": 0.5,
+			  "random": false,
+			  "anim": {
+				"enable": false,
+				"speed": 1,
+				"opacity_min": 0.1,
+				"sync": false
+			  }
+			},
+			"size": {
+			  "value": 5,
+			  "random": true,
+			  "anim": {
+				"enable": false,
+				"speed": 40,
+				"size_min": 0.1,
+				"sync": false
+			  }
+			},
+			"line_linked": {
+			  "enable": true,
+			  "distance": 150,
+			  "color": "#ffffff",
+			  "opacity": 0.4,
+			  "width": 1
+			},
+			"move": {
+			  "enable": true,
+			  "speed": 6,
+			  "direction": "none",
+			  "random": false,
+			  "straight": false,
+			  "out_mode": "out",
+			  "bounce": false,
+			  "attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			  }
+			}
+		  },
+		  "interactivity": {
+			"detect_on": "canvas",
+			"events": {
+			  "onhover": {
+				"enable": true,
+				"mode": "repulse"
+			  },
+			  "onclick": {
+				"enable": true,
+				"mode": "push"
+			  },
+			  "resize": true
+			},
+			"modes": {
+			  "grab": {
+				"distance": 400,
+				"line_linked": {
+				  "opacity": 1
+				}
+			  },
+			  "bubble": {
+				"distance": 400,
+				"size": 40,
+				"duration": 2,
+				"opacity": 8,
+				"speed": 3
+			  },
+			  "repulse": {
+				"distance": 200,
+				"duration": 0.4
+			  },
+			  "push": {
+				"particles_nb": 4
+			  },
+			  "remove": {
+				"particles_nb": 2
+			  }
+			}
+		  },
+		  "retina_detect": true
+		});
+	  </script>
+	  
+	<script>
+		function submitComment() {
+			var name = $("#name").val();
+			var attendance = $("#attendance").val();
+			var message = $("#message").val();
+			var web_param = "WEB010";
+			if (name === "" || attendance === "" || message === "") {
+				alert("Semua field harus diisi!");
+				return;
+			}
+			$.ajax({
+				url: "http://localhost/api_comment_zonemiracle/index.php/comment",
+				type: "POST",
+				data: {
+					web_param: web_param,
+					name: name,
+					attendance: attendance,
+					message: message
+				},
+				success: function (response) {
+					$("#comment-form")[0].reset();
+					fetchComments();
+				},
+				error: function (xhr, status, error) {
+					console.error("Error mengirim komentar:", error);
+					alert("Gagal mengirim komentar.");
+				}
+			});
+		}
+		function fetchComments() {
+			var web_param = "WEB010";
+			$.ajax({
+				url: "http://localhost/api_comment_zonemiracle/index.php/comment",
+				type: "GET",
+				data: {
+					web_param: web_param
+				},
+				success: function (response) {
+					var commentList = $("#comment-list");
+					commentList.empty();
+					response.forEach(function (comment) {
+						commentList.append(
+							`<div class="comment-item">
+					<strong>${comment.name}</strong> ${comment.attendance === 'attending' ? '<i class="fa-solid fa-square-check"></i>' : '<i class="fa-solid fa-square-xmark"></i>'}
+					<p>${comment.message}</p>
+				</div>`
+						);
+					});
+				},
+				error: function (xhr, status, error) {
+					console.error("Error mengambil komentar:", error);
+				}
+			});
+		}
+		$(document).ready(function () {
+			fetchComments();
+		});
+
+	</script>
+</body>
+
 </html>
