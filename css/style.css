@@ -2484,13 +2484,13 @@ form label {
 }
 
 .splash-content {
-  /* background: linear-gradient(
+  background: linear-gradient(
     to top,
-    rgba(236, 214, 217, 1) 0%,         
-    rgba(236, 214, 217, 0.8) 30%,      
-    rgba(236, 214, 217, 0.4) 60%,    
-    rgba(236, 214, 217, 0) 100%
-  ); */
+    rgb(7, 7, 7) 0%,        
+      rgba(48, 48, 48, 0.8) 20%,      
+      rgba(84, 84, 84, 0.4) 40%,    
+      rgba(250, 250, 250, 0) 50%  
+  );
   padding: 20px;
   padding-top: 100px;
   border-radius: 10px 10px 0 0;
@@ -3208,13 +3208,13 @@ form label {
   }
 
   .splash-content {
-    /* background: linear-gradient(
+    background: linear-gradient(
       to top,
-      rgba(28, 37, 54, 1) 0%,       
-    rgba(28, 37, 54, 0.8) 30%,      
-    rgba(28, 37, 54, 0.4) 60%,      
-    rgba(28, 37, 54, 0) 100% 
-    ); */
+      rgb(7, 7, 7) 0%,        
+      rgba(48, 48, 48, 0.8) 20%,      
+      rgba(84, 84, 84, 0.4) 40%,    
+      rgba(250, 250, 250, 0) 50%  
+    );
     padding: 20px;
     padding-top: 350px;
     padding-bottom: 50px;
