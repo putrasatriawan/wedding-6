@@ -1133,9 +1133,13 @@ form label {
   /* position: relative; */
   height: 80%;
   background-position: center;
-  /* background: url("../images/upsect2.png"); */
+  background: url("../images/upsect2.png");
   background-size: cover;
   width: 100%;
+}
+
+#fh5co-header .display-tc h2:first-child{
+  padding-top: 40%;
 }
 /* #fh5co-header .overlay::before {
   content: "";
@@ -1161,6 +1165,9 @@ form label {
     background-position: center;
     background-size: cover;
     width: 100%;
+  }
+  #fh5co-header .display-tc h2:first-child{
+    padding-top: 5%;
   }
   .fh5co-cover .overlay {
     z-index: 0;
@@ -1888,6 +1895,7 @@ form label {
   border-top-right-radius: 30px;
   box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.6);
   color: #F9F7F1;
+  padding-top: 50px;
 }
 
 #fh5co-footer h2{
