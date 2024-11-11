@@ -77,7 +77,7 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<script src="js/particles.js-master/particles.js"></script>
 	<script src="js/particles.js-master/demo/js/lib/stats.js"></script>
-	<script src="js/particles.js-master/demo/js/app.js"></script>
+	<!-- <script src="js/particles.js-master/demo/js/app.js"></script> -->
 	<script src="https://kit.fontawesome.com/2bd1212873.js"
 			crossorigin="anonymous"></script>
 	<!-- Modernizr JS -->
@@ -104,7 +104,7 @@
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
-	<![endif]-->
+	<![endif] -->
 
 </head>
 
@@ -113,11 +113,11 @@
 		 class="splash-screen">
 		<div class="splash-content">
 		
-			<svg viewBox="0 0 380 100" style="margin-left: -47%;">
-				<path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" fill="none" stroke="none"/>
+			<svg id="responsiveSvg" viewBox="0 0 265 100" style="height: 100px;">
+				<path id="curve" d="M3.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" fill="none" stroke="none"/>
 				<text width="500">
 				<textPath xlink:href="#curve" startOffset="29%">
-					The Wedding Of
+					The  Wedding  Of
 				</textPath>
 				</text>
 			</svg>
@@ -356,10 +356,9 @@
 					</div>
 			</div>
 
+			<div id="particles-js">
 			<div id="fh5co-event"
-			class="fh5co-bg"
-			style="background-color: white;">
-			<div id="particles-js"></div>
+			class="fh5co-bg">
 				 <div class="overlay">
 					<div class="ev-middle">
 						<img src="images/bungatengah.png"
@@ -469,6 +468,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
 			<div id="fh5co-couple-story">
 				<div class="container">
@@ -842,6 +842,7 @@
 				</div>
 			</div>
 
+			<div id="particles-js2">
 			<div id="fh5co-end"
 				 class="fh5co-bg">
 				<div class="overlay">
@@ -988,20 +989,23 @@
 				</div>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-							<div class="end-image">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<div class="end-image  animate-box">
 								<img src="images/end.jpg"
 									 alt="">
 							</div>
-							<p>Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i
-								berkenan hadir dan memberikan doa restu. Atas kehadiran dan doa restunya, kami
-								mengucapkan terima kasih.
-								Wassalamu'alaikum Wr. Wb.</p>
-							<h2>Arizal &amp; Sabilla</h2>
+							<div class="animate-box">
+								<p>Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i
+									berkenan hadir dan memberikan doa restu. Atas kehadiran dan doa restunya, kami
+									mengucapkan terima kasih.
+									Wassalamu'alaikum Wr. Wb.</p>
+								<h2>Arizal &amp; Sabilla</h2>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
 			<footer id="fh5co-footer"
 					role="contentinfo">
@@ -1047,9 +1051,9 @@
 		<div class="menu-toggle">
 			<div class="event-toggle">
 				<a href="#fh5co-header"><i class="fa-solid fa-house"></i></a>
-				<a href="#fh5co-couple"><i class="fa-solid fa-heart"></i></a>
 				<a href="#fh5co-event"><i class="fa-solid fa-calendar-days"></i></a>
 				<a href="#fh5co-gallery"><i class="fa-solid fa-images"></i></a>
+				<a href="#fh5co-couple"><i class="fa-solid fa-heart"></i></a>
 				<a href="#fh5co-started"><i class="fa-solid fa-comments"></i></a>
 			</div>
 		</div>
@@ -1126,130 +1130,232 @@
 		});
 		var targetDate = new Date('2025-05-17T09:00:00');
 
-		var d = new Date(targetDate.getTime());
-
-		// default example
 		simplyCountdown('.simply-countdown-one', {
-			year: d.getFullYear(),
-			month: d.getMonth() + 1,
-			day: d.getDate()
+			year: targetDate.getFullYear(),
+			month: targetDate.getMonth() + 1,
+			day: targetDate.getDate(),
+			hours: targetDate.getHours(),
+			minutes: targetDate.getMinutes(),
+			enableUtc: false,
 		});
 
-		//jQuery example
-		$('#simply-countdown-losange').simplyCountdown({
-			year: d.getFullYear(),
-			month: d.getMonth() + 1,
-			day: d.getDate(),
-			enableUtc: false
-		});
 	</script>
 	<script>
-	// 	particlesJS("particles-js", {
-	// 	  "particles": {
-	// 		"number": {
-	// 		  "value": 80, // Number of particles
-	// 		  "density": {
-	// 			"enable": true,
-	// 			"value_area": 800 // Density of particles in the area
-	// 		  }
-	// 		},
-	// 		"color": {
-	// 		  "value": "#ffffff" // Color of particles
-	// 		},
-	// 		"shape": {
-	// 		  "type": "circle",
-	// 		  "stroke": {
-	// 			"width": 0,
-	// 			"color": "#000000"
-	// 		  },
-	// 		  "polygon": {
-	// 			"nb_sides": 5
-	// 		  }
-	// 		},
-	// 		"opacity": {
-	// 		  "value": 0.5,
-	// 		  "random": false,
-	// 		  "anim": {
-	// 			"enable": false,
-	// 			"speed": 1,
-	// 			"opacity_min": 0.1,
-	// 			"sync": false
-	// 		  }
-	// 		},
-	// 		"size": {
-	// 		  "value": 5,
-	// 		  "random": true,
-	// 		  "anim": {
-	// 			"enable": false,
-	// 			"speed": 40,
-	// 			"size_min": 0.1,
-	// 			"sync": false
-	// 		  }
-	// 		},
-	// 		"line_linked": {
-	// 		  "enable": true,
-	// 		  "distance": 150,
-	// 		  "color": "#ffffff",
-	// 		  "opacity": 0.4,
-	// 		  "width": 1
-	// 		},
-	// 		"move": {
-	// 		  "enable": true,
-	// 		  "speed": 6,
-	// 		  "direction": "none",
-	// 		  "random": false,
-	// 		  "straight": false,
-	// 		  "out_mode": "out",
-	// 		  "bounce": false,
-	// 		  "attract": {
-	// 			"enable": false,
-	// 			"rotateX": 600,
-	// 			"rotateY": 1200
-	// 		  }
-	// 		}
-	// 	  },
-	// 	  "interactivity": {
-	// 		"detect_on": "canvas",
-	// 		"events": {
-	// 		  "onhover": {
-	// 			"enable": true,
-	// 			"mode": "repulse"
-	// 		  },
-	// 		  "onclick": {
-	// 			"enable": true,
-	// 			"mode": "push"
-	// 		  },
-	// 		  "resize": true
-	// 		},
-	// 		"modes": {
-	// 		  "grab": {
-	// 			"distance": 400,
-	// 			"line_linked": {
-	// 			  "opacity": 1
-	// 			}
-	// 		  },
-	// 		  "bubble": {
-	// 			"distance": 400,
-	// 			"size": 40,
-	// 			"duration": 2,
-	// 			"opacity": 8,
-	// 			"speed": 3
-	// 		  },
-	// 		  "repulse": {
-	// 			"distance": 200,
-	// 			"duration": 0.4
-	// 		  },
-	// 		  "push": {
-	// 			"particles_nb": 4
-	// 		  },
-	// 		  "remove": {
-	// 			"particles_nb": 2
-	// 		  }
-	// 		}
-	// 	  },
-	// 	  "retina_detect": true
-	// 	});
-	//   </script>
+		enterButton.addEventListener('click', function () {
+		particlesJS("particles-js", {
+		  "particles": {
+			"number": {
+			  "value": 80,
+			  "density": {
+				"enable": true,
+				"value_area": 800 
+			  }
+			},
+			"color": {
+			  "value": "#3D3D3D"
+			},
+			"shape": {
+			  "type": "circle",
+			  "stroke": {
+				"width": 0,
+				"color": "#3D3D3D"
+			  },
+			  "polygon": {
+				"nb_sides": 5
+			  }
+			},
+			"opacity": {
+			  "value": 0.5,
+			  "random": false,
+			  "anim": {
+				"enable": false,
+				"speed": 1,
+				"opacity_min": 0.1,
+				"sync": false
+			  }
+			},
+			"size": {
+			  "value": 5,
+			  "random": true,
+			  "anim": {
+				"enable": false,
+				"speed": 40,
+				"size_min": 0.1,
+				"sync": false
+			  }
+			},
+			"line_linked": {
+			  "enable": true,
+			  "distance": 150,
+			  "color": "#3D3D3D",
+			  "opacity": 0.4,
+			  "width": 1
+			},
+			"move": {
+			  "enable": true,
+			  "speed": 6,
+			  "direction": "none",
+			  "random": false,
+			  "straight": false,
+			  "out_mode": "out",
+			  "bounce": false,
+			  "attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			  }
+			}
+		  },
+		  "interactivity": {
+			"detect_on": "canvas",
+			"events": {
+			  "onhover": {
+				"enable": true,
+				"mode": "repulse"
+			  },
+			  "onclick": {
+				"enable": true,
+				"mode": "push"
+			  },
+			  "resize": true
+			},
+			"modes": {
+			  "grab": {
+				"distance": 400,
+				"line_linked": {
+				  "opacity": 1
+				}
+			  },
+			  "bubble": {
+				"distance": 400,
+				"size": 40,
+				"duration": 2,
+				"opacity": 8,
+				"speed": 3
+			  },
+			  "repulse": {
+				"distance": 200,
+				"duration": 0.4
+			  },
+			  "push": {
+				"particles_nb": 4
+			  },
+			  "remove": {
+				"particles_nb": 2
+			  }
+			}
+		  },
+		  "retina_detect": true
+		});
+
+		particlesJS("particles-js2", {
+		  "particles": {
+			"number": {
+			  "value": 80,
+			  "density": {
+				"enable": true,
+				"value_area": 800 
+			  }
+			},
+			"color": {
+			  "value": "#3D3D3D"
+			},
+			"shape": {
+			  "type": "circle",
+			  "stroke": {
+				"width": 0,
+				"color": "#3D3D3D"
+			  },
+			  "polygon": {
+				"nb_sides": 5
+			  }
+			},
+			"opacity": {
+			  "value": 0.5,
+			  "random": false,
+			  "anim": {
+				"enable": false,
+				"speed": 1,
+				"opacity_min": 0.1,
+				"sync": false
+			  }
+			},
+			"size": {
+			  "value": 5,
+			  "random": true,
+			  "anim": {
+				"enable": false,
+				"speed": 40,
+				"size_min": 0.1,
+				"sync": false
+			  }
+			},
+			"line_linked": {
+			  "enable": true,
+			  "distance": 150,
+			  "color": "#3D3D3D",
+			  "opacity": 0.4,
+			  "width": 1
+			},
+			"move": {
+			  "enable": true,
+			  "speed": 6,
+			  "direction": "none",
+			  "random": false,
+			  "straight": false,
+			  "out_mode": "out",
+			  "bounce": false,
+			  "attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			  }
+			}
+		  },
+		  "interactivity": {
+			"detect_on": "canvas",
+			"events": {
+			  "onhover": {
+				"enable": true,
+				"mode": "repulse"
+			  },
+			  "onclick": {
+				"enable": true,
+				"mode": "push"
+			  },
+			  "resize": true
+			},
+			"modes": {
+			  "grab": {
+				"distance": 400,
+				"line_linked": {
+				  "opacity": 1
+				}
+			  },
+			  "bubble": {
+				"distance": 400,
+				"size": 40,
+				"duration": 2,
+				"opacity": 8,
+				"speed": 3
+			  },
+			  "repulse": {
+				"distance": 200,
+				"duration": 0.4
+			  },
+			  "push": {
+				"particles_nb": 4
+			  },
+			  "remove": {
+				"particles_nb": 2
+			  }
+			}
+		  },
+		  "retina_detect": true
+		});
+		
+	});
+	  </script>
 	  
 	<script>
 		function submitComment() {

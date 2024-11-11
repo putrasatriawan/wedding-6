@@ -379,9 +379,11 @@ figure {
 }
 #fh5co-end,
 #fh5co-gift{
-  height: 100%;
   padding: 100px 2%;
   float: left;
+}
+#fh5co-gift{
+  height: 100%;
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
@@ -1376,12 +1378,14 @@ form label {
 #fh5co-couple{
   background: url(../images/image-bg3.png) center no-repeat #fff;
   background-size: cover;
+  background-size: 100% 100%;
   padding: 200px 0;
 }
 
 #fh5co-couple-story {
   background: #F9F7F1 url(../images/image-bg.png) center no-repeat;
   background-size: cover;
+  background-size: 100% 100%;
   padding: 200px 0;
 }
 @media screen and (max-width: 768px) {
@@ -1430,7 +1434,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #1c2536;
+  color: #CC8F53;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -2501,6 +2505,10 @@ form label {
   /* color: #721727; */
 }
 
+.splash-content svg {
+  margin-left: -90px
+}
+
 .splash-content h1 {
   margin-bottom: 10px;
   font-size: 35px;
@@ -3392,7 +3400,7 @@ form label {
 }
 
 .event-toggle {
-  border: 2px solid;
+  border:  #E8C49D 2px solid;
   background: #CC8F53;
   margin-bottom: 30px;
   padding: 10px;
@@ -3518,25 +3526,47 @@ form label {
 
 #fh5co-event .ev-middle{
   position: absolute;
-  top: 90px;
+  top: 150px;
   left: 46%;
   right: 46%;
 }
 
-@media screen and (min-width: 768px) {
-  #fh5co-event .ev-middle{
-  top: 150px;
-  }
-}
-#particles-js {
+#particles-js canvas,
+#particles-js2 canvas{
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
+  /* z-index: -1; */
+}
+#particles-js{
+  position: relative;
+  width: 100%;
+  height: 170vh;
+  z-index: 1;
+  margin-top: 250px;
+}
+
+#particles-js2 {
+  position: relative;
+  width: 100%;
+  height: 200vh;
   z-index: -1;
 }
 
+@media screen and (max-width: 768px) {
+  #particles-js{
+  height: 190vh;
+  }
+}
+
+#fh5co-event,
+#fh5co-end {
+  position: relative;
+  z-index: 2;
+  padding: 100px 0;
+}
 #fh5co-event .container,
 #fh5co-end .container{
   border-radius: 300px;
@@ -3547,7 +3577,7 @@ form label {
   outline-offset: 2px;
   margin-left: 5px;
   margin-right: 5px;
-  width: 98%;
+  width: 99%;
 }
 #fh5co-event .container{
   padding-top: 180px;
